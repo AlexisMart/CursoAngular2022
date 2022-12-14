@@ -1,4 +1,4 @@
 <router-outlet></router-outlet>
 <div class="grid">
-  <app-card *ngFor="let card of Arreglotarjetas"></app-card>
+  <app-card [dataEntrante]="card" *ngFor="let card of Arreglotarjetas"></app-card>
 </div>
